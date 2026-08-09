@@ -40,7 +40,6 @@ Detection Window	~4 seconds (4 attempts)
 
 Analyst interpretation: Multiple failed logons in a short window from a single host is an early-stage indicator consistent with brute-force login attempts. While a single low-severity alert like this isn't an incident on its own, it's exactly the kind of signal a SOC analyst would correlate with other events (e.g., a successful logon immediately after, or a higher volume of attempts) to identify a potential account compromise attempt. This maps conceptually to MITRE ATT&CK T1110 (Brute Force).
 
-Screenshot: screenshots/logon-failure-alerts.png
 
 Skills Demonstrated
 SIEM deployment and configuration (Wazuh indexer, manager, dashboard)
@@ -55,4 +54,3 @@ Write custom detection rules beyond Wazuh's defaults
 Integrate with a threat intelligence feed for IOC enrichment
 Screenshots
 
-See the screenshots/ folder for dashboard views, agent registration, and alert details.
